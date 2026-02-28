@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-02-06T20:34:27.843995",
+  "input_file": "D:/BMW sales data (2010-2024) (1).csv",
+  "output_file": "D:\\BMW sales data (2010-2024) (1)_CLEANED_20260206_203427.csv",
+  "dataset_stats": {
+    "rows": 50000,
+    "columns": 11,
+    "memory_mb": 17.274712562561035
+  },
+  "data_quality": {
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "numeric_columns": 5,
+    "text_columns": 6,
+    "datetime_columns": 0
+  },
+  "cleaning_applied": {
+    "memory_optimized": true,
+    "missing_values_handled": true,
+    "duplicates_removed": true,
+    "outliers_handled": true,
+    "text_cleaned": true,
+    "dates_inferred": true
+  },
+  "statistical_approximations": {
+    "median_method": "median-of-chunk-medians for large files",
+    "mode_method": "most-frequent-chunk-mode for large files",
+    "note": "Approximations trade perfect accuracy for memory safety"
+  }
+}
